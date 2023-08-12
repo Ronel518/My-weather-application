@@ -1,9 +1,9 @@
 body {
-  max-width: 900px;
   border: 3px solid black;
+  max-width: 900px;
   margin: 50px auto;
   padding: 10px;
-  line-height: 30px;
+  line-height: 60px;
   background-color: powderblue;
   background-image: url("https://images.pexels.com/photos/5745754/pexels-photo-5745754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
@@ -15,15 +15,11 @@ h1 {
   font-size: 23px;
   font-family: 100px;
   line-height: 28px;
+  margin-top: 50px;
   margin-bottom: 0;
 }
-ul {
-  margin: 0;
-  padding: 0;
-}
+
 li {
-  margin: 0;
-  padding: 0;
   text-transform: capitalize;
   color: black;
   font-size: 15px;
@@ -36,20 +32,20 @@ li {
 }
 .weather-temperature img {
   margin-right: 0px;
-  height: 44px;
-  width: 44px;
+  height: 64px;
+  width: 64px;
 }
 .weather-temperature strong {
-  color: rgb(61, 57, 57);
+  color: rgb(33, 33, 32);
   font-size: 64px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1;
+  margin: 0;
 }
-
 .units {
   position: relative;
-  font-size: 14px;
-  top: -34px;
+  font-size: 16px;
+  top: -24px;
 }
 
 .box {
