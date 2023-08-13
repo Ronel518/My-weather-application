@@ -1,10 +1,9 @@
 body {
   border: 3px solid black;
-  max-width: 800px;
-  min-height: fit-content;
+  max-width: 780px;
   margin: 50px auto;
   padding: 10px;
-  line-height: 60px;
+  line-height: 30px;
   background-color: powderblue;
   background-image: url("https://images.pexels.com/photos/5745754/pexels-photo-5745754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
@@ -26,13 +25,14 @@ ul {
 }
 
 li {
-  margin: 0;
+  margin-right: 50px;
   padding: 0;
   text-transform: capitalize;
   color: black;
   font-size: 15px;
   font-weight: 100px;
   list-style: none;
+  line-height: 30px;
 }
 
 .layout {
