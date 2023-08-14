@@ -67,3 +67,7 @@ li {
 .active {
   color: rgb(33, 33, 32);
 }
+.box {
+  margin-bottom: 50px;
+  border: 1px blue solid;
+}
