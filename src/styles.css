@@ -3,9 +3,7 @@
 }
 .weather-app {
   border: 3px solid black;
-  max-width: 900px;
   margin: 50px auto;
-  padding: 10px;
   line-height: 35px;
   background-color: powderblue;
   background-image: url("https://images.pexels.com/photos/5745754/pexels-photo-5745754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -71,10 +69,7 @@ li {
 .active {
   color: rgb(33, 33, 32);
 }
-.box {
-  margin-bottom: 50px;
-  border: 1px blue solid;
-}
+
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
