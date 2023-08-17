@@ -15,31 +15,31 @@
   </head>
   <body>
     <div class="container">
-      <form class="search-form" id="search-form" class="mb-3">
-        <div class="row">
-          <div class="col">
-            <input
-              type="text"
-              placeholder="Enter your city..."
-              class="form-control"
-              id="city-input"
-            />
+      <div class="weather-app">
+        <form class="search-form" id="search-form" class="mb-3">
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                placeholder="Enter your city..."
+                class="form-control"
+                id="city-input"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="btn btn-primary w-5"
+                id="search-button"
+              />
+              <button class="btn btn-primary w-5" id="current-location-button">
+                Current
+              </button>
+            </div>
           </div>
-          <div class="col-3">
-            <input
-              type="submit"
-              value="Search"
-              class="btn btn-primary w-5"
-              id="search-button"
-            />
-            <button class="btn btn-primary w-5" id="current-location-button">
-              Current
-            </button>
-          </div>
-        </div>
-      </form>
-      <div class="weather-app-wrapper">
-        <div class="weather-app">
+        </form>
+        <div class="weather-app-wrapper">
           <div class="layout">
             <h1 id="city"></h1>
 
@@ -73,6 +73,7 @@
       </div>
     </div>
     <script src="src/index.js"></script>
+    <br />
     <a class="code" href="https://github.com/Ronel518/my-weather-application"
       >Opensource code by Thamandree Govender(Ronel)
     </a>

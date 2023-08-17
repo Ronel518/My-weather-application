@@ -1,13 +1,17 @@
-body {
+.body {
+  font-family: "DM Sans", sans-serif;
+}
+.weather-app {
   border: 3px solid black;
   max-width: 900px;
   margin: 50px auto;
   padding: 10px;
-  line-height: 30px;
+  line-height: 60px;
   background-color: powderblue;
   background-image: url("https://images.pexels.com/photos/5745754/pexels-photo-5745754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 15px;
 }
 
 h1 {
@@ -75,6 +79,7 @@ li {
   margin-top: 20px;
   text-align: center;
   color: #000;
+  font-size: 50px;
 }
 
 .weather-forecast-date {
@@ -87,5 +92,5 @@ li {
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 20px;
 }
