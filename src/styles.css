@@ -3,21 +3,28 @@
 }
 .weather-app {
   border: 3px solid black;
-  margin: 50px auto;
-  line-height: 35px;
+  margin: 30px auto;
   background-color: powderblue;
   background-image: url("https://images.pexels.com/photos/5745754/pexels-photo-5745754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
-  background-size: cover;
   border-radius: 15px;
   padding-left: 30px;
   padding-bottom: 30px;
+  padding-right: 30px;
+  max-width: 900px;
+  max-height: 800px;
+}
+p {
+  color: black;
+  font-weight: bold;
+  font-size: 21px;
+  text-transform: capitalize;
 }
 
 h1 {
   color: black;
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 32px;
+  font-weight: bold;
   line-height: 28px;
   margin-bottom: 0;
   text-align: left;
@@ -28,12 +35,13 @@ ul {
   padding: 0;
 }
 li {
+  margin-top: 2px;
   margin-right: 50px;
   padding: 0;
-  text-transform: capitalize;
   color: black;
-  font-size: 15px;
-  font-weight: 100px;
+  font-size: 20px;
+  font: 1em sans-serif;
+  font-weight: bold;
   list-style: none;
   line-height: 30px;
   margin-bottom: 4px;
@@ -60,34 +68,22 @@ li {
   top: -24px;
 }
 
-.box {
-  padding: 1px;
-  text-align: center;
-}
-
 .search-form {
   margin-top: 30px;
 }
-.active {
-  color: rgb(33, 33, 32);
-}
-
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
   color: #000;
-  font-size: 50px;
-}
-
-.weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.6;
-}
-
-.weather-forecast-temperature-min {
-  opacity: 0.6;
-}
-
-.weather-forecast-temperatures {
   font-size: 20px;
+}
+.weather-forecast-date {
+  font-family: "Lato", sans-serif;
+  color: #00204a;
+  font-weight: 100;
+}
+.weather-forecast-temperature-min {
+  font-family: "Lato", sans-serif;
+  color: #00204a;
+  font-weight: 100;
 }

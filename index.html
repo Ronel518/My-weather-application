@@ -53,23 +53,24 @@
                 <img src="" alt="Clear" id="icon" class="float-left" />
                 <div class="float-left">
                   <strong id="temperature"></strong>
-                  <span class="units">
-                    <a href="#" id="celsius-link" class="active"> °C</a> |
-                    <a href="#" id="fahrenheit-link"> ℉ </a></span
-                  >
+                  <span class="units">°C</span>
+                  <ul>
+                    <br />
+                    <li>Feels-Like:<span id="feels-like"></span> °C</li>
+                  </ul>
+                  <p id="description"></p>
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-3">
               <ul>
-                <li>humidity:<span id="humidity"></span> %</li>
-                <li>wind:<span id="wind"></span> km/h</li>
-                <li id="description"></li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
                 <li>
-                  sunrise:<span id="sunrise" class="sunrise-set-time"></span>
+                  Sunrise: <span id="sunrise" class="sunrise-set-time"></span>am
                 </li>
                 <li>
-                  sunset: <span id="sunset" class="sunrise-set-time"></span>
+                  Sunset: <span id="sunset" class="sunrise-set-time"></span>pm
                 </li>
               </ul>
             </div>
