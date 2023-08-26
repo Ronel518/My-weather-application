@@ -87,3 +87,10 @@ li {
   color: #00204a;
   font-weight: 100;
 }
+.code {
+  color: #00204a;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
