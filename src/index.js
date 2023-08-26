@@ -35,12 +35,11 @@ function formatDate(timestamp) {
     "November",
     "December",
   ];
-
+  let year = date.getFullYear();
   let currentMonth = months[date.getMonth()];
 
-  return `${day}, ${dayOfTheMonth} of ${currentMonth} - ${hours}:${minutes}`;
+  return `${day}, ${dayOfTheMonth} of ${currentMonth} ${year} - ${hours}:${minutes}`;
 }
-
 function formatSunrise(timestamp) {
   let sunriseTime = new Date(timestamp);
   let hours = sunriseTime.getHours();
