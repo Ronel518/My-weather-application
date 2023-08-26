@@ -19,7 +19,26 @@ function formatDate(timestamp) {
     "Saturday",
   ];
   let day = days[date.getDay()];
-  return `${day} ${hours}:${minutes}`;
+  let dayOfTheMonth = date.getDate();
+
+  let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+
+  let currentMonth = months[date.getMonth()];
+
+  return `${day}, ${dayOfTheMonth} of ${currentMonth} - ${hours}:${minutes}`;
 }
 
 function formatSunrise(timestamp) {
