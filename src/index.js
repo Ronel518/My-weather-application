@@ -53,7 +53,7 @@ function displayForecast(response) {
 
   let forecastHTML = `<div class="row">`;
   forecast.forEach(function (forecastDay, index) {
-    if (index < 6) {
+    if (index >= 1 && index < 7) {
       forecastHTML =
         forecastHTML +
         `
@@ -68,12 +68,12 @@ function displayForecast(response) {
         />
  
       <div class="weather-forecast-temperatures">
-        <span class="weather-forecast-temperature-max">${Math.round(
+        <span class="weather-forecast-temperature-max">H:${Math.round(
           forecastDay.temp.max
-        )}° </span>
-        <span class="weather-forecast-temperature-min">${Math.round(
+        )}°C </span>|
+        <span class="weather-forecast-temperature-min">L:${Math.round(
           forecastDay.temp.min
-        )}°</span>
+        )}°C </span>
     </div>
   </div>  `;
     }
@@ -169,4 +169,4 @@ form.addEventListener("submit", handleSubmit);
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
-search("Durban");
+search("Ronel");

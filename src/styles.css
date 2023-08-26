@@ -3,7 +3,7 @@
 }
 .weather-app {
   border: 3px solid black;
-  margin: 30px auto;
+  margin: 20px auto;
   background-color: powderblue;
   background-image: url("https://images.pexels.com/photos/5745754/pexels-photo-5745754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
   padding-left: 30px;
   padding-bottom: 30px;
   padding-right: 30px;
-  max-width: 900px;
+  max-width: 1000px;
   max-height: 800px;
 }
 p {
@@ -22,13 +22,14 @@ p {
 }
 
 h1 {
-  color: black;
+  color: #00204a;
   font-size: 32px;
   font-weight: bold;
   line-height: 28px;
   margin-bottom: 0;
   text-align: left;
   margin-top: 50px;
+  text-transform: uppercase;
 }
 ul {
   margin: 0;
@@ -57,7 +58,7 @@ li {
 }
 .weather-temperature strong {
   color: rgb(33, 33, 32);
-  font-size: 64px;
+  font-size: 55px;
   font-weight: 400;
   line-height: 1;
   margin: 0;
@@ -75,7 +76,7 @@ li {
   margin-top: 20px;
   text-align: center;
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
 }
 .weather-forecast-date {
   font-family: "Lato", sans-serif;
