@@ -11,8 +11,8 @@
   padding-left: 30px;
   padding-bottom: 30px;
   padding-right: 30px;
-  max-width: 1000px;
-  max-height: 800px;
+  max-width: fit-content;
+  line-height: 34px;
 }
 p {
   color: black;
