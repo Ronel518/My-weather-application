@@ -86,10 +86,10 @@ function displayForecast(response) {
         />
  
       <div class="weather-forecast-temperatures">
-        <span class="weather-forecast-temperature-max">H:${Math.round(
+        <span class="weather-forecast-temperature-max"> :${Math.round(
           forecastDay.temp.max
         )}°C </span>|
-        <span class="weather-forecast-temperature-min">L:${Math.round(
+        <span class="weather-forecast-temperature-min"> :${Math.round(
           forecastDay.temp.min
         )}°C </span>
     </div>
@@ -109,15 +109,7 @@ function getForecast(coordinates) {
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
   let day = date.getDay();
-  let days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-  ];
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
   return days[day];
 }
