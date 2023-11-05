@@ -94,3 +94,23 @@ li {
   font-size: 18px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.current-location-button{
+  background-color:blue;
+  color: white;
+  padding: 5px;
+  line-height: 2;
+  border-radius: 3px;
+}
+.search-button{
+  background-color:blue;
+  color: white;
+  padding: 5px;
+  line-height: 2;
+  border-radius: 3px;
+}
+
+@media (max-width: 576px) {
+  .current-location-button{
+    display: none;
+  }
+}
